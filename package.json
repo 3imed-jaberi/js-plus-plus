@@ -1,5 +1,38 @@
 {
+  "name": "js-plus-plus",
+  "version": "1.0.0",
+  "private": true,
+  "description": " What's new in next generation of JavaScript (ES-Next) 🚀 .. ",
+  "scripts": {
+    "start": "npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:3imed-jaberi/js-plus-plus.git"
+  },
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "js",
+    "es6",
+    "v8",
+    "es-next",
+    "typescript",
+    "ecosystem",
+    "cross-platforms",
+    "everywhere"
+  ],
+  "author": {
+    "name": "imed jaberi",
+    "email": "3imed.jaberi@gmail.com",
+    "url": "https://3imed-jaberi.com"
+  },
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2"
-  }
+  },
+  "bugs": {
+    "url": "git+https://github.com/3imed-jaberi/js-plus-plus/issues"
+  },
+  "homepage": "https://github.com/3imed-jaberi/js-plus-plus#readme"
 }
