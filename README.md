@@ -1,3 +1,3 @@
-# JS ++ 
+# JS++ (JavaScript Plus Plus)
 
-<!-- init 🚧 -->
+### What's new in next generation of JavaScript (ES-Next) 🚀 ..
