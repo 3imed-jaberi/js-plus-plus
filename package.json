@@ -2,7 +2,7 @@
   "name": "js-plus-plus",
   "version": "1.0.0",
   "private": true,
-  "description": " What's new in next generation of JavaScript (ES-Next) 🚀 .. ",
+  "description": "What's new in next generation of JavaScript (ES-Next) 🚀 ..",
   "scripts": {
     "start": "npm i"
   },
