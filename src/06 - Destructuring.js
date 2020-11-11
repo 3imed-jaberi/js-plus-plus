@@ -1,32 +1,33 @@
 
-const ISETN = {
-  name: 'ISET NABEUL',
-  institut: true,
+const ENSI = {
+  name: 'ENSI Manouba',
+  institut: false,
   since: 1998, // example
   geoLocation: {
-    langitude: 'laaaaaaa',
-    lantiutude: 'looooooo'
+    langitude: 12.51,
+    lantiutude: 0.77
   },
   diplomes: [
-    'DSI',
-    'RSI'
+    'Software Eng.',
+    'IT',
+    'CS'
   ]
 }
 
-// ============ Before ES6 ============ // 
+// ============ Before ES6 ============ //
   console.log(`
     // Before ES6 
-    ${ISETN.name}
-    ${ISETN.diplomes}
-    ${ISETN.institut}
+    ${ENSI.name}
+    ${ENSI.diplomes}
+    ${ENSI.institut}
     // ============
-  `);
+  `)
   
 // ==================================== //
 
 
 // ============ After ES6 ============ //
-  const { name, diplomes, institut } = ISETN;
+  const { name, diplomes, institut } = ENSI
 
   console.log(`
     // After ES6 : core concept
@@ -34,17 +35,22 @@ const ISETN = {
     ${diplomes}
     ${institut}
     // ============
-  `);
+  `)
 
   // 
 
-  const { geoLocation: { langitude: la, lantiutude: lo }} = ISETN;
+  const { 
+    geoLocation: { 
+      langitude: la,
+      lantiutude: lo 
+    }
+  } = ENSI
   console.log(`
     // After ES6 : use Nested Destructuring with renaming > advanced !
     ${la}
     ${lo}
     // ============
-  `);
+  `)
 
   // use with Function
     const GlobalProps = {
@@ -62,9 +68,9 @@ const ISETN = {
     }
 
     function useWithFunc({ backend_framework }) {
-      console.log(`Some Node.js Backend Framework: \n [ ${backend_framework} ]`);
+      console.log(`Some Node.js Backend Framework: \n [ ${backend_framework} ]`)
     }
-    
-    useWithFunc(GlobalProps);
+
+    useWithFunc(GlobalProps)
   
 // ==================================== //

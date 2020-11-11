@@ -2,27 +2,27 @@
 // ============ Before ES6 ============ // 
   // var 
 
-  // var Name = 'imed';
-  // var BrotherName = 'jawher';
+  // var Name = 'imed'
+  // var BrotherName = 'jawher'
 
-  // console.log(Name, BrotherName);
+  // console.log(Name, BrotherName)
 
 // ==================================== //
 
 // ============ After ES6 ============ //
   // let
 
-  // let Name = 'imed';
-  // let BrotherName = 'jawher';
+  // let Name = 'imed'
+  // let BrotherName = 'jawher'
 
-  // console.log(Name, BrotherName);
+  // console.log(Name, BrotherName)
 
   // const 
 
-  // const Name = 'imed';
-  // const BrotherName = 'jawher';
+  // const Name = 'imed'
+  // const BrotherName = 'jawher'
 
-  // console.log(Name, BrotherName);
+  // console.log(Name, BrotherName)
 
 // ==================================== //
 
@@ -32,21 +32,26 @@
 // ============ Let vs Var ============ //
 // ==================================== //
 
-  var Name = 'imed jaberi';
-  console.log('Before change the name: ', Name);
+  var Name = 'imed jaberi'
+  console.log('Before change the name: ', Name)
 
-  (function changeName () {
-    Name = 'jawher jaberi';
-  })() // IIFE pattern .. 
+  function changeName () {
+    Name = 'jawher jaberi'
+  }
 
-  console.log('After change the name: ', Name);
+  changeName ()
+
+
+  console.log('After change the name: ', Name)
 
   // ============ 
-  (function changeTeam () {
-    let Team = 'Club Africain';
-    console.log('Before init the Team in the `changeTeam` function: ', Team);
-  })() // IIFE pattern .. 
+  function changeTeam () {
+    let Team = 'Club Africain'
+    console.log('Before init the Team in the `changeTeam` function: ', Team)
+  }
 
-  console.log('Outside the function: ', Team); // Throw Error 
+  changeTeam ()
+
+  console.log('Outside the function: ', Team) // Throw Error 
 
 // ==================================== //

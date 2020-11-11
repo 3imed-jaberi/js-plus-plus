@@ -5,19 +5,19 @@
 // ====================================================================================
 
 
-const Name = 'imed jaberi ';
+const Name = 'imed jaberi '
 
 // .startsWith()
-console.log(Name.startsWith('imed')); // true 
-console.log(Name.startsWith('jaberi')); // false
+console.log(Name.startsWith('imed')) // true 
+console.log(Name.startsWith('jaberi')) // false
 
 // .endsWith()
-console.log(Name.endsWith('imed')); // false 
-console.log(Name.endsWith('jaberi')); // true
+console.log(Name.endsWith('imed')) // false 
+console.log(Name.endsWith('jaberi')) // true
 
 // .includes()
-console.log(Name.includes('med')); // true 
-console.log(Name.includes('chaouki')); // false
+console.log(Name.includes('med')) // true 
+console.log(Name.includes('chaouki')) // false
 
 // .repeat()
-console.log(Name.repeat(2)); // repeate the string .. 
+console.log(Name.repeat(2)) // repeate the string .. 

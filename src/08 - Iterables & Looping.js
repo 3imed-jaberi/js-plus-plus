@@ -14,15 +14,15 @@
     'Strawberries 🍓',
     'Potato 🥔',
     'Avocado 🥑',
-  ];
+  ]
 
     // with out index
     for (const item of fruits) {
-      console.log(item);
+      console.log(item)
     }
     // with index
     for (const [index, item] of fruits.entries()) {
-      console.log(`${index + 1} - ${item}`);
+      console.log(`${index + 1} - ${item}`)
     }
   // For Of
   const fruitsObj = { 
@@ -33,9 +33,9 @@
     Strawberries: '🍓',
     Potato: '🥔',
     Avocado: '🥑',
-  };
+  }
 
   for (const item in fruitsObj) {
-    console.log(`Key: ${item}, Value: ${fruitsObj[item]}`); 
+    console.log(`Key: ${item}, Value: ${fruitsObj[item]}`) 
   }
 // ==================================== //
